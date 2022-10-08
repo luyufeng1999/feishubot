@@ -1,0 +1,52 @@
+{
+    "schema": "2.0",
+    "header": {
+        "event_id": "1f764d52d8937bf4d9f549638361f9ab",
+        "token": "s5qwks75IGBFmAq01ve0ngKQqBhJFQF4",
+        "create_time": "1664419471788",
+        "event_type": "im.message.receive_v1",
+        "tenant_key": "1056535274d8975d",
+        "app_id": "cli_a3b9601adcbad00e"
+    },
+    "event": {
+        "message": {
+            "chat_id": "oc_11d86dc1ca80382be288ae8ac90022ae",
+            "chat_type": "group",
+            "content": "{\"text\":\"@_user_1 给@_user_2 派单\"}",
+            "create_time": "1664419471494",
+            "mentions": [
+                {
+                    "id": {
+                        "open_id": "ou_db0b7b2f09274226951422151f033e5f",
+                        "union_id": "on_b8db029faf35d15111c6356dfe771973",
+                        "user_id": ""
+                    },
+                    "key": "@_user_1",
+                    "name": "需求平台",
+                    "tenant_key": "1056535274d8975d"
+                },
+                {
+                    "id": {
+                        "open_id": "ou_56601c7413578de74e1bbd806a8c25ed",
+                        "union_id": "on_239f98e88ea4e428addacfcd3ec1d4f1",
+                        "user_id": "g6c1gaaf"
+                    },
+                    "key": "@_user_2",
+                    "name": "陈德睿",
+                    "tenant_key": "1056535274d8975d"
+                }
+            ],
+            "message_id": "om_375a69bf96058eca44c6fb8a887ed107",
+            "message_type": "text"
+        },
+        "sender": {
+            "sender_id": {
+                "open_id": "ou_4460bc6714a381c9a1f282752fe641ae",
+                "union_id": "on_b8806271dc1b2745ad268b3c0b761ce8",
+                "user_id": "ge5gfg5a"
+            },
+            "sender_type": "user",
+            "tenant_key": "1056535274d8975d"
+        }
+    }
+}

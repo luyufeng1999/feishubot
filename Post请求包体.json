@@ -1,0 +1,30 @@
+{
+    "schema": "2.0",
+    "header": {
+        "event_id": "3144668fd8c75a30f7769ee71d7aae0b",
+        "token": "s5qwks75IGBFmAq01ve0ngKQqBhJFQF4",
+        "create_time": "1664350755822",
+        "event_type": "im.message.receive_v1",
+        "tenant_key": "1056535274d8975d",
+        "app_id": "cli_a3b9601adcbad00e"
+    },
+    "event": {
+        "message": {
+            "chat_id": "oc_8d456a55ab05df34029531e6bf8c1480",
+            "chat_type": "p2p",
+            "content": "{\"text\": \"需求单\"}", 
+            "create_time": "1664350755507", 
+            "message_id": "om_f47b969120e7a5b672f6f0472229ccca", 
+            "message_type": "text"
+        }, 
+        "sender": {
+            "sender_id": {
+                "open_id": "ou_4460bc6714a381c9a1f282752fe641ae", 
+                "union_id": "on_b8806271dc1b2745ad268b3c0b761ce8", 
+                "user_id": "ge5gfg5a"
+            }, 
+            "sender_type": "user", 
+            "tenant_key": "1056535274d8975d"
+        }
+    }
+}
